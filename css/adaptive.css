@@ -1,0 +1,15 @@
+@media (max-width: 615px) {
+    .goat > img {
+        width: 300px;
+    }
+}
+@media (max-width: 470px) {
+    .goat > img {
+        width: 250px;
+    }
+}
+@media (max-width: 400px) {
+    .goat > img {
+        width: 200px;
+    }
+}
