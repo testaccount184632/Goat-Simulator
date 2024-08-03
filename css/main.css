@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #bdd0d1;
+    font-family: Montserrat, Verdana, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.ex-section {
+    background-color: #7eaf9f;
+    padding: 20px;
+    border-radius: 10px;
+}
+.score-section {
+    background-color: #5c8d7d;
+}
+.goat > img {
+    width: 400px;
+}
+.goat-section {
+    background-color: #4a7a6a;
+    margin-top: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+.reset {
+    background-color: #a72c2c;
+    padding: 15px;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    color: #ffffff;
+    user-select: none;
+    cursor: pointer;
+    transition: background-color .4s;
+}
+.reset:hover {
+    background-color: #771515;
+    transition: background-color .4s;
+}
